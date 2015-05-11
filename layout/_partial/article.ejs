@@ -15,7 +15,11 @@
     <div class="entry">
       <% if (index){ %>
         <% var br = item.content.indexOf('\n') %>
-        <%- item.content.substring(0, br) %>
+        <% content = item.content.substring(0, br) %>
+        <% if(content.length < 300){ %>
+          <% content = item.content.substring(0, item.content.indexOf('\n', br + 1)) %>
+        <% } %>
+        <%- content %>
       <% } else { %>
         <%- item.content %>
 	     <% if (item.layout != 'page'){ %>
