@@ -4,9 +4,8 @@ menu:
   About: /about/
   Subscribe: /atom.xml
 
-widgets: 
+widgets:
 - menu
-- weibo
 - category
 - tagcloud
 
