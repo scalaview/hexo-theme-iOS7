@@ -27,4 +27,8 @@ weibo:
 	uid:
 	link:
 
+github:
+  name: scalaview
+  link: https://github.com/scalaview
+
 rss: http://xxx.xx/atom.xml
